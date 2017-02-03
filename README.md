@@ -1,23 +1,11 @@
-# Gatstrap
+# C4TKG
 
-Gatsby starter for bootstrap a blog
-
-![](http://i.imgur.com/SwE51Ib.png)
+New theme for C4TK Nashville built with Gatsby
 
 ## Features
 + Single column layout
-+ Simple components: SiteNavi, SitePost, SitePage.
++ Simple components: SiteFooter, SiteNavi, SitePost, SitePage.
 + [Twitter Bootstrap](https://github.com/twbs/bootstrap) css framework.
-
-## Installation
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatstrap https://github.com/jaxx2104/gatsby-starter-bootstrap`
-
-
-## Usage
-develop
-`gatsby develop`
-
 
 ## License
 The MIT license.
