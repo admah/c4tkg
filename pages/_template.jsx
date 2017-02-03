@@ -22,7 +22,7 @@ class Template extends React.Component {
         const {location, children} = this.props
         return (
             <div>
-              <SiteNavi title={ config.siteTitle } {...this.props}/>
+              <SiteNavi title={ config.siteHashtag } {...this.props}/>
               { children }
               <SiteFooter />
             </div>

@@ -90,6 +90,9 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
 }
 @media (min-width: 768px) {
+    .nav {
+        float: right;
+    }
     header {
         min-height: 60%;
     }
