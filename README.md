@@ -1,5 +1,7 @@
 # C4TKG
 
+[ ![Codeship Status for admah/c4tkg](https://app.codeship.com/projects/1be5bf10-d076-0134-f32b-6684ec15f06f/status?branch=master)](https://app.codeship.com/projects/201232)
+
 New theme for C4TK Nashville built with Gatsby
 
 ## Features
