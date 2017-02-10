@@ -8,6 +8,7 @@
     "build": "npm run clean & gatsby build & copy",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "copy:files": "cp pages/*.{pdf,txt,png,jpg,jpeg,gif} public/",
     "copy": "npm run copy:files",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
@@ -30,7 +31,7 @@
     "front-matter": "^2.0.8",
     "gatsby": "^0.12.0",
     "history": "^2.1.1",
-    "lodash": "^4.14.1",
+    "lodash": "^4.17.4",
     "markdown-it": "^6.0.2",
     "moment": "^2.14.1",
     "react": "^15.3.0",
@@ -44,6 +45,7 @@
     "underscore.string": "^3.2.3"
   },
   "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
     "babel-preset-react-hmre": "^1.1.1",
